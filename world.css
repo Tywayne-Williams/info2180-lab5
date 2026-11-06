@@ -1,1 +1,106 @@
-/* Add your own styles */
+
+/* Overall page styling */
+body {
+    font-family: Georgia, serif;
+    background-color: #f4f7f8;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Page heading */
+.page-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.page-header h1 {
+    font-family: Georgia, serif;
+    color: #263b46;
+}
+
+/* Center the search controls */
+#controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+#controls label {
+    font-size: 18px;
+}
+
+/* Enlarge the country input */
+#country {
+    width: 80%;
+    max-width: 450px;
+    padding: 13px;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+/* General button styling */
+#controls button {
+    width: 180px;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Teal Lookup button */
+#lookup {
+    background-color: #008c8c;
+}
+
+#lookup:hover {
+    background-color: #006f6f;
+}
+
+/* Purple Lookup Cities button */
+#lookup-cities {
+    background-color: #7950a1;
+}
+
+#lookup-cities:hover {
+    background-color: #603b83;
+}
+
+/* Position and size the results table */
+#result {
+    margin: 60px auto 30px;
+    width: 85%;
+    max-width: 950px;
+}
+
+/* Table styling */
+#result table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    font-family: Georgia, serif;
+}
+
+#result th,
+#result td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+#result th {
+    background-color: #e1eeee;
+    color: #263b46;
+}
+
+/* Make the table easier to read */
+#result tr:nth-child(even) {
+    background-color: #f2f6f6;
+}
